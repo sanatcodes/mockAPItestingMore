@@ -4,7 +4,7 @@ const trackingInfo = require("./api/tracking");
 
 app.use(express.json({ extended: false }));
 
-app.use("/v3/trackings/test1", trackingInfo);
+app.use("/api/tracking", trackingInfo);
 
 const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => console.log(`Server is running in port ${PORT}`));

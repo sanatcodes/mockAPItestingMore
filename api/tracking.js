@@ -21,22 +21,35 @@ const router = express.Router();
 //     res.send(test2);
 // });
 
+
 router.get("/", async (req, res) => {
-    try {
-      res.json(test1);
-    } catch (error) {
-      console.error(error);
-      return res.status(500).send("Server error");
-    }
+  try {
+    res.json({
+      status: 200,
+      message: "Get data has successfully",
+    });
+  } catch (error) {
+    console.error(error);
+    return res.status(500).send("Server error");
+  }
 });
 
-router.get("/v3/trackings/test2", async (req, res) => {
-    try {
-      res.json(data1);
-    } catch (error) {
-      console.error(error);
-      return res.status(500).send("Server error");
-    }
-});
+// router.get("/", async (req, res) => {
+//     try {
+//       res.json(test1);
+//     } catch (error) {
+//       console.error(error);
+//       return res.status(500).send("Server error");
+//     }
+// });
+
+// router.get("/v3/trackings/test2", async (req, res) => {
+//     try {
+//       res.json(data1);
+//     } catch (error) {
+//       console.error(error);
+//       return res.status(500).send("Server error");
+//     }
+// });
 
 module.exports = app;
