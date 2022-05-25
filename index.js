@@ -20,6 +20,7 @@ app.get('/v3/trackings/', (req, res) => {
 
 
 app.listen( port, () => {
-    console.log();
+    console.log(`running on port:${port}`);
 });
 
+module.exports = app;
