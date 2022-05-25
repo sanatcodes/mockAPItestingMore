@@ -6,7 +6,7 @@
         "tracking_number": "UB209300714LV",
         "courier_code": "cainiao",
         "order_number": "A0003519112000AE",
-        "delivery_status": "delivered",
+        "delivery_status": "transit",
         "archived": false,
         "updating": false,
         "created_at": "2020-12-24T05:24:07+01:00",
