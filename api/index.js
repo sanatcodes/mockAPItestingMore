@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express();
-const test1 = require('./data/data1.json');
-const test2 = require('./data/data2.json');
+const test1 = require('../data/data1.json');
+const test2 = require('../data/data2.json');
 const port = 8080;
 
 // //Middleware
@@ -10,11 +10,11 @@ const port = 8080;
 // })
 
 
-app.get('/', (req, res) => {
+app.get('/v3/trackings/test1', (req, res) => {
     res.send(test1);
 });
 
-app.get('/v3/trackings/', (req, res) => {
+app.get('/v3/trackings/test2', (req, res) => {
     res.send(test2);
 });
 
