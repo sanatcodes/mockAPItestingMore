@@ -30,13 +30,13 @@ router.get("/", async (req, res) => {
     }
 });
 
-router.get("/v3/trackings/test2", async (req, res) => {
-    try {
-      res.json(data1);
-    } catch (error) {
-      console.error(error);
-      return res.status(500).send("Server error");
-    }
-});
+// router.get("/v3/trackings/test2", async (req, res) => {
+//     try {
+//       res.json(data1);
+//     } catch (error) {
+//       console.error(error);
+//       return res.status(500).send("Server error");
+//     }
+// });
 
-module.exports = app;
+module.exports = router;
