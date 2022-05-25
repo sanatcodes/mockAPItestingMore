@@ -10,7 +10,7 @@ const port = 8080;
 // })
 
 
-app.get('/v3/trackings/', (req, res) => {
+app.get('/', (req, res) => {
     res.send(test1);
 });
 
