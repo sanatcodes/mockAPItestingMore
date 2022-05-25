@@ -1,26 +1,16 @@
-const express = require('express')
-const app = express();
-const test1 = require('../data/data1.json');
-const test2 = require('../data/data2.json');
-const port = 8080;
+const app = require('express')();
+const { v4 } = require('uuid');
 
-// //Middleware
-// app.use('/v3/trackings/get', () => {
-//     console.log("middleware called");
-// })
-
-
-app.get('/v3/trackings/test1', (req, res) => {
-    res.send(test1);
+app.get('/api', (req, res) => {
+  const path = `/api/item/${v4()}`;
+  res.setHeader('Content-Type', 'text/html');
+  res.setHeader('Cache-Control', 's-max-age=1, stale-while-revalidate');
+  res.end(`Hello! Go to item: <a href="${path}">${path}</a>`);
 });
 
-app.get('/v3/trackings/test2', (req, res) => {
-    res.send(test2);
-});
-
-
-app.listen( port, () => {
-    console.log(`running on port:${port}`);
+app.get('/api/item/:slug', (req, res) => {
+  const { slug } = req.params;
+  res.end(`Item: ${slug}`);
 });
 
 module.exports = app;
