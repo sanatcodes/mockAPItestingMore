@@ -1,0 +1,265 @@
+[{
+    "code": 200,
+    "message": "Request response is successful",
+    "data": [
+      {
+        "tracking_number": "UB209300714LV",
+        "courier_code": "cainiao",
+        "order_number": "A0003519112000AE",
+        "delivery_status": "exception",
+        "archived": false,
+        "updating": false,
+        "created_at": "2020-12-24T05:24:07+01:00",
+        "update_date": "2020-12-11T14:39:58+01:00",
+        "shipping_date": "2020-09-11 00:00:00",
+        "customer_name": "test",
+        "customer_email": "sandbox@sandbox.sandbox",
+        "courier_phone": "+8612345678910",
+        "title": "test",
+        "logistics_channel": "test",
+        "note": "test",
+        "destination": "BR",
+        "original": "CN",
+        "service_code": "test",
+        "weight": "1kg",
+        "checkpoint_delivery_substatus": "delivered001",
+        "status_info": null,
+        "previously": null,
+        "destination_track_number": null,
+        "exchangeNumber": null,
+        "SignedForByName": null,
+        "scheduled_delivery_date": "2020-11-09",
+        "Scheduled_Address": null,
+        "lasest_event": "Brazil ,【 Brazil 】 delivered , Brazil ,2020-12-08 15:50:00",
+        "lastest_checkpoint_time": "2020-12-08T15:50:00+01:00",
+        "transit_time": 29,
+        "stay_time": 3,
+        "origin_info": {
+          "courier_code": "china-ems",
+          "courier_phone": "11183",
+          "weblink": "http://www.ems.com.cn/",
+          "reference_number": null,
+          "received_date": "2020-11-09 15:56:25",
+          "dispatched_date": "2020-11-10 03:56:12",
+          "departed_airport_date": null,
+          "arrived_abroad_date": null,
+          "customs_received_date": "2020-12-04 19:35:00",
+          "arrived_destination_date": "2020-12-03 10:51:00",
+          "trackinfo": [
+            {
+              "checkpoint_date": "2020-12-08 15:50:00",
+              "tracking_detail": "Brazil ,【 Brazil 】 delivered",
+              "location": "Brazil",
+              "checkpoint_delivery_status": "delivered",
+              "checkpoint_delivery_substatus": "delivered001"
+            },
+            {
+              "checkpoint_date": "2020-12-04 19:36:00",
+              "tracking_detail": "KuLiTiBa, The destination customs clearance is complete",
+              "location": "KuLiTiBa",
+              "checkpoint_delivery_status": "transit",
+              "checkpoint_delivery_substatus": "transit005"
+            },
+            {
+              "checkpoint_date": "2020-12-04 19:36:00",
+              "tracking_detail": "Brazil , Departed 【 Brazil 】 processing center",
+              "location": "Brazil",
+              "checkpoint_delivery_status": "transit",
+              "checkpoint_delivery_substatus": "transit001"
+            },
+            {
+              "checkpoint_date": "2020-12-04 19:35:00",
+              "tracking_detail": "Brazil ,JingWaiJinKou customs clearance",
+              "location": "Brazil",
+              "checkpoint_delivery_status": "transit",
+              "checkpoint_delivery_substatus": "transit005"
+            },
+            {
+              "checkpoint_date": "2020-12-03 11:03:00",
+              "tracking_detail": "KuLiTiBa,JingWaiJinKouHaiGuanLiuCunDaiYan",
+              "location": "KuLiTiBa",
+              "checkpoint_delivery_status": "transit",
+              "checkpoint_delivery_substatus": "transit001"
+            },
+            {
+              "checkpoint_date": "2020-12-03 11:03:00",
+              "tracking_detail": "KuLiTiBa, 133",
+              "location": "KuLiTiBa",
+              "checkpoint_delivery_status": "transit",
+              "checkpoint_delivery_substatus": "transit001"
+            },
+            {
+              "checkpoint_date": "2020-12-03 10:54:00",
+              "tracking_detail": "KuLiTiBa, 133",
+              "location": "KuLiTiBa",
+              "checkpoint_delivery_status": "transit",
+              "checkpoint_delivery_substatus": "transit001"
+            },
+            {
+              "checkpoint_date": "2020-12-03 10:53:00",
+              "tracking_detail": "KuLiTiBa,Arrived JiDaDi processing center",
+              "location": "KuLiTiBa",
+              "checkpoint_delivery_status": "transit",
+              "checkpoint_delivery_substatus": "transit001"
+            },
+            {
+              "checkpoint_date": "2020-12-03 10:51:00",
+              "tracking_detail": "KuLiTiBa,Arrived JiDaDi",
+              "location": "KuLiTiBa",
+              "checkpoint_delivery_status": "transit",
+              "checkpoint_delivery_substatus": "transit001"
+            },
+            {
+              "checkpoint_date": "2020-11-13 00:00:00",
+              "tracking_detail": "Airline in transit to next facility",
+              "location": "",
+              "checkpoint_delivery_status": "transit",
+              "checkpoint_delivery_substatus": "transit001"
+            },
+            {
+              "checkpoint_date": "2020-11-12 07:10:00",
+              "tracking_detail": "Airline JieShou",
+              "location": "",
+              "checkpoint_delivery_status": "transit",
+              "checkpoint_delivery_substatus": "transit001"
+            },
+            {
+              "checkpoint_date": "2020-11-12 02:40:00",
+              "tracking_detail": "Airline in transit to next facility",
+              "location": "",
+              "checkpoint_delivery_status": "transit",
+              "checkpoint_delivery_substatus": "transit001"
+            },
+            {
+              "checkpoint_date": "2020-11-12 00:00:00",
+              "tracking_detail": "Airline JieShou",
+              "location": "",
+              "checkpoint_delivery_status": "transit",
+              "checkpoint_delivery_substatus": "transit001"
+            },
+            {
+              "checkpoint_date": "2020-11-10 13:28:52",
+              "tracking_detail": "Guangzhou city ,YiJiaoChengYunShangYunShu",
+              "location": "Guangzhou city",
+              "checkpoint_delivery_status": "transit",
+              "checkpoint_delivery_substatus": "transit001"
+            },
+            {
+              "checkpoint_date": "2020-11-10 09:18:38",
+              "tracking_detail": "Guangzhou city , Departed 【Guangzhou  internationalZhongXin】, Next stop 【Guangzhou  international JiaoHuanZhan】",
+              "location": "Guangzhou city",
+              "checkpoint_delivery_status": "transit",
+              "checkpoint_delivery_substatus": "transit001"
+            },
+            {
+              "checkpoint_date": "2020-11-10 03:56:12",
+              "tracking_detail": "Guangzhou city ,【Guangzhou  internationalZhongXin】 Departure from outward office of exchange",
+              "location": "Guangzhou city",
+              "checkpoint_delivery_status": "transit",
+              "checkpoint_delivery_substatus": "transit002"
+            },
+            {
+              "checkpoint_date": "2020-11-09 17:16:25",
+              "tracking_detail": "Guangzhou city , Arrived 【Guangzhou  internationalZhongXin】",
+              "location": "Guangzhou city",
+              "checkpoint_delivery_status": "transit",
+              "checkpoint_delivery_substatus": "transit001"
+            },
+            {
+              "checkpoint_date": "2020-11-09 16:11:46",
+              "tracking_detail": "Guangzhou city , Departed 【Sheng international DongShanYingYeBu】, Next stop 【Guangzhou international 】",
+              "location": "Guangzhou city",
+              "checkpoint_delivery_status": "transit",
+              "checkpoint_delivery_substatus": "transit001"
+            },
+            {
+              "checkpoint_date": "2020-11-09 15:56:25",
+              "tracking_detail": "Guangzhou city ,【Sheng international DongShanYingYeBu】 item collected , The postman :SuXuHua,DianHua:17039139139",
+              "location": "Guangzhou city",
+              "checkpoint_delivery_status": "transit",
+              "checkpoint_delivery_substatus": "transit001",
+              "ItemNode": "received_date"
+            }
+          ]
+        },
+        "destination_info": {
+          "courier_code": "brazil-correios",
+          "courier_phone": "55 61 3003 0100",
+          "weblink": "http://www.correios.com.br/",
+          "reference_number": null,
+          "received_date": "2020-11-09 15:56:00",
+          "dispatched_date": null,
+          "departed_airport_date": null,
+          "arrived_abroad_date": null,
+          "customs_received_date": null,
+          "arrived_destination_date": "2020-12-03 11:00:00",
+          "trackinfo": [
+            {
+              "checkpoint_date": "2020-12-08 15:49:00",
+              "tracking_detail": "Objeto entregue ao destinatário",
+              "location": "PINHAIS,PR",
+              "checkpoint_delivery_status": "delivered",
+              "checkpoint_delivery_substatus": "delivered001"
+            },
+            {
+              "checkpoint_date": "2020-12-08 09:53:00",
+              "tracking_detail": "Objeto saiu para entrega ao destinatário",
+              "location": "PINHAIS,PR",
+              "checkpoint_delivery_status": "pickup",
+              "checkpoint_delivery_substatus": "pickup001"
+            },
+            {
+              "checkpoint_date": "2020-12-08 06:02:00",
+              "tracking_detail": "Objeto em trânsito - por favor aguarde",
+              "location": "CURITIBA,PR",
+              "checkpoint_delivery_status": "transit",
+              "checkpoint_delivery_substatus": "transit001"
+            },
+            {
+              "checkpoint_date": "2020-12-04 20:55:00",
+              "tracking_detail": "Objeto em trânsito - por favor aguarde",
+              "location": "CURITIBA,PR",
+              "checkpoint_delivery_status": "transit",
+              "checkpoint_delivery_substatus": "transit001"
+            },
+            {
+              "checkpoint_date": "2020-12-04 20:53:00",
+              "tracking_detail": "Fiscalização aduaneira finalizada",
+              "location": "CURITIBA,PR",
+              "checkpoint_delivery_status": "transit",
+              "checkpoint_delivery_substatus": "transit001"
+            },
+            {
+              "checkpoint_date": "2020-12-03 11:00:00",
+              "tracking_detail": "Objeto recebido pelos Correios do Brasil",
+              "location": "CURITIBA,PR",
+              "checkpoint_delivery_status": "transit",
+              "checkpoint_delivery_substatus": "transit003"
+            },
+            {
+              "checkpoint_date": "2020-11-10 03:56:00",
+              "tracking_detail": "Objeto em trânsito - por favor aguarde",
+              "location": "",
+              "checkpoint_delivery_status": "transit",
+              "checkpoint_delivery_substatus": "transit001"
+            },
+            {
+              "checkpoint_date": "2020-11-09 21:23:00",
+              "tracking_detail": "Objeto recebido na unidade de exportação no país de origem",
+              "location": "",
+              "checkpoint_delivery_status": "transit",
+              "checkpoint_delivery_substatus": "transit001"
+            },
+            {
+              "checkpoint_date": "2020-11-09 15:56:00",
+              "tracking_detail": "Objeto postado",
+              "location": "",
+              "checkpoint_delivery_status": "transit",
+              "checkpoint_delivery_substatus": "transit001",
+              "ItemNode": "received_date"
+            }
+          ]
+        }
+      }
+    ]
+  }]
